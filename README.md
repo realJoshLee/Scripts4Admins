@@ -11,6 +11,9 @@ Created by Josh Lee
   Set-ExecutionPolicy RemoteSigned
   ```
 
+## Pre-Setup
+These scripts are suggested to be ran directly on the machine that GAM is installed on. Download all of these files and make sure that you have the GAM portion in all of the scripts pointing to the location of gam.exe on your machine and then set the location of where the output for all of the script logs will be for the dashboard (if you decide to use the dashboard). From there, follow the individual setup instructions for each script and then setup scheduling in task scheduler on Windows.
+
 ### Create Script
 This script was origionally designed to pull a CSV from Clever and create new student accounts based on if accounts are already in Google or not. Script to pull information from Clever can be changed around with any FTP server. Just change the header information, grade matching to department to change what OU the user will get their account created in.
 
