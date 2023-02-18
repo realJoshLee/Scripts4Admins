@@ -1,5 +1,6 @@
 # Scripts4Admins
 Scripts are designed to be used in companies where their primary IDM is Google Workspace. Scripts and dashboard are free to be edited and customized to your personal or business needs to help make everyones lives easier. No matter if this information is edited or not, there is no warranty or support.
+Everything is databaseless so there is no need for a SQL database to house information. All information is cross referenced directly from Google to the CSV that will be pulled from your SIS/HR dept. If there is a user/employee in the SIS/HR CSV that is not in Google, then an account will be created. Same goes for suspending old users, if there is a user/employee that is not in the SIS/HR CSV but still active in the set OU in Google then their account will be suspended and moved.
 Created by Josh Lee
 
 ## Prerequisites
